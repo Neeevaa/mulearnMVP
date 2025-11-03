@@ -32,10 +32,6 @@ class BottomNavBar extends StatelessWidget {
           label: 'Karma',
         ),
         BottomNavigationBarItem(
-          icon: Icon(Icons.people),
-          label: 'Community',
-        ),
-        BottomNavigationBarItem(
           icon: Icon(Icons.person),
           label: 'Profile',
         ),

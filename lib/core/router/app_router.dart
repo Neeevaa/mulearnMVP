@@ -60,20 +60,20 @@ final goRouter = GoRouter(
           builder: (context, state) => const HomePage(),
         ),
         GoRoute(
-          path: '/events',
-          builder: (context, state) => const EventsPage(),
+          path: '/groups',
+          builder: (context, state) => const InterestGroupsScreen(),
         ),
         GoRoute(
-          path: '/opportunities',
-          builder: (context, state) => const OpportunitiesPage(),
+          path: '/circles',
+          builder: (context, state) => const LearningCirclesScreen(),
         ),
         GoRoute(
-          path: '/community',
-          builder: (context, state) => const CommunityPage(),
+          path: '/karma',
+          builder: (context, state) => const KarmaPointsScreen(),
         ),
         GoRoute(
           path: '/profile',
-          builder: (context, state) => const ProfilePage(),
+          builder: (context, state) => const ProfileScreen(),
         ),
       ],
     ),
