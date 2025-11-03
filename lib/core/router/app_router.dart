@@ -9,6 +9,7 @@ import '../../features/interest_groups/presentation/interest_groups_screen.dart'
 import '../../features/learning_circles/presentation/learning_circles_screen.dart';
 import '../../features/karma/presentation/karma_points_screen.dart';
 import '../../features/profile/presentation/profile_screen.dart';
+import '../../features/splash/presentation/splash_screen.dart';
 import '../../shared/widgets/bottom_nav_bar.dart';
 
 final goRouter = GoRouter(
